@@ -7,7 +7,7 @@
 
   <groupId>com.testinium.mobile</groupId>
   <artifactId>mobile-arch</artifactId>
-  <version>1.0.0.0</version>
+  <version>1.0.0.1</version>
 
   <name>mobile-arch</name>
   <!-- FIXME change it to the project's website -->
@@ -73,11 +73,6 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
       <version>${faster.xml.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.testinium.mobile</groupId>
-      <artifactId>mobile-arch</artifactId>
-      <version>1.0.0.0</version>
     </dependency>
   </dependencies>
 

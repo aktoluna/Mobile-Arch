@@ -1,6 +1,6 @@
 package com.testinium.mobile.selector;
 
-import com.saha.halkbank.helper.StoreHelper;
+import com.testinium.mobile.helper.StoreHelper;
 import com.testinium.mobile.model.ElementInfo;
 import com.testinium.mobile.model.SelectorInfo;
 import org.openqa.selenium.By;
