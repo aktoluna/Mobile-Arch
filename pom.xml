@@ -7,7 +7,7 @@
 
   <groupId>com.testinium.mobile</groupId>
   <artifactId>mobile-arch</artifactId>
-  <version>1.0.0.1</version>
+  <version>1.0.0.2</version>
 
   <name>mobile-arch</name>
   <!-- FIXME change it to the project's website -->
@@ -36,6 +36,7 @@
     <slnarch.version>BETA-1.5.3</slnarch.version>
     <feather.version>1.0</feather.version>
     <faster.xml.version>2.9.6</faster.xml.version>
+    <assertj.version>3.10.0</assertj.version>
   </properties>
 
   <dependencies>
@@ -73,6 +74,11 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
       <version>${faster.xml.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>${assertj.version}</version>
     </dependency>
   </dependencies>
 

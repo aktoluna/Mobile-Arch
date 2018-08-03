@@ -9,13 +9,13 @@ public class IOSSelector implements Selector {
   public By getElementInfoToBy(ElementInfo elementInfo) {
     By by = null;
     if (elementInfo.getIosType().equals("css")) {
-      by = By.cssSelector(elementInfo.getAndroidValue());
+      by = By.cssSelector(elementInfo.getIosValue());
     } else if (elementInfo.getIosValue().equals("id")) {
-      by = By.id(elementInfo.getAndroidValue());
+      by = By.id(elementInfo.getIosValue());
     } else if (elementInfo.getIosType().equals("xpath")) {
-      by = By.xpath(elementInfo.getAndroidValue());
+      by = By.xpath(elementInfo.getIosValue());
     } else if (elementInfo.getIosType().equals("class")) {
-      by = By.className(elementInfo.getAndroidValue());
+      by = By.className(elementInfo.getIosValue());
     }
     return by;
   }

@@ -13,7 +13,7 @@ public class YamlHelper {
 
   public static String convertYamlToJsonByFile(String path) {
     String json = "";
-    InputStream inputStream = null;
+    InputStream inputStream;
     try {
       inputStream = FileHelper.getInstance().getFileStream(path);
       ObjectMapper yamlReader = new ObjectMapper(new YAMLFactory());
